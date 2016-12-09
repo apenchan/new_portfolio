@@ -8,10 +8,19 @@
 }*/
 body{
   margin: 0;
-  position: fixed;
-  background: no-repeat center center;
-  background-size: 100%
+  padding: 0;
+/*  position: fixed;*/
 }
+#greetings-container{
+  background-size: cover;
+  /*height: 100vh;*/
+  background-repeat: no-repeat;
+  position: relative;
+}
+.overlay{
+  height: 100%
+  width: 100%;
+ }
 .welcomeText {
   font-size: 50px;
   text-align: center;
@@ -26,4 +35,15 @@ body{
   width: 100%;
   height: 90%;
   background-size: cover;
+}
+@keyframes bouncing{
+  0%{bottom: 200px;}
+  50% {bottom: 150px;}
+  100% {bottom: 200px;}
+}
+.arrow{
+  animation: bouncing 1s infinite ease-in-out;
+  position: absolute;
+  padding-top: 46%;
+  padding-left: 45%;
 }
