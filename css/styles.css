@@ -1,0 +1,29 @@
+/*html {
+  background: no-repeat center center;
+  margin: 0px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+body{
+  margin: 0;
+  position: fixed;
+  background: no-repeat center center;
+  background-size: 100%
+}
+.welcomeText {
+  font-size: 50px;
+  text-align: center;
+  color: orange;
+  padding: 8px 12px;
+  position: absolute;
+  width: 100%;
+  padding-top: 20%;
+}
+.welcomeImage{
+/*  position: relative;*/
+  width: 100%;
+  height: 90%;
+  background-size: cover;
+}
