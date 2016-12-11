@@ -16,8 +16,9 @@ function carousel() {
 }
 
  $(function() {
-    $('.arrow').click (function() {
-      $('html, body').animate({scrollTop: $('section.test').offset().top }, 'slow');
+    $('#').click (function() {
+      $('html, body').animate({scrollTop: $('section').offset().top }, 'slow');
       return false;
     });
   });
+

@@ -6,7 +6,7 @@
   -o-background-size: cover;
   background-size: cover;
 }*/
-body{
+html, body{
   margin: 0;
   padding: 0;
 /*  position: fixed;*/
@@ -40,6 +40,7 @@ body{
   0%{bottom: 200px;}
   50% {bottom: 150px;}
   100% {bottom: 200px;}
+
 }
 .arrow{
   animation: bouncing 1s infinite ease-in-out;
