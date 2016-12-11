@@ -14,3 +14,10 @@ function carousel() {
     x[myGreetings-1].style.display = "block";
     setTimeout(carousel, 2000); // Change image every 2 seconds
 }
+
+ $(function() {
+    $('.arrow').click (function() {
+      $('html, body').animate({scrollTop: $('section.test').offset().top }, 'slow');
+      return false;
+    });
+  });
