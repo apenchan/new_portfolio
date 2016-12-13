@@ -15,10 +15,16 @@ function carousel() {
     setTimeout(carousel, 2000);
 }
 
- $(function() {
-    $('arrow').click (function() {
-      $('html, body').animate({scrollTop: $('section').offset().top }, 'smooth');
-      return false;
-    });
-  });
+  $("a").click(function(event){
+    if(this.hash){
+      event.preventDefault();
+      var hash = this.hash
+      console.log(hash);
 
+      $("body,html").animate({
+        scrollTop : $(hash).offset().top
+      }, 500, function(){
+        window.location.hash = hash;
+      })
+    }
+  });
