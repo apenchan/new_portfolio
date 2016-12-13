@@ -6,31 +6,43 @@ html, body{
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  padding: 50px;
+  /*padding-top: 50px;*/
+  height: 100vh;
 }
 .overlay{
   height: 100%;
   width: 100%;
+  display: block;
  }
 .welcomeText {
   font-size: 50px;
   text-align: center;
   color: orange;
-  padding: 8px 12px;
   position: absolute;
   width: 100%;
-  padding-top: 20%;
+  padding-top: 17%;
   position: absolute;
 }
 .welcomeImage{
+/*  background-image: url("http://bit.ly/2hrIv9U");
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;*/
+  height: 610px;
   width: 100%;
-  height: 70%;
+}
+.welcomeImage2{
+  background-image: url("http://bit.ly/2gEAuQl");
   background-size: cover;
-    -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  height: 100vh;
   background-repeat: no-repeat;
-  padding-bottom: 10px;
+}
+.welcomeImage3{
+  background-image: url("http://bit.ly/2htGoTc");
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
 }
 
 @keyframes bouncing{
@@ -46,6 +58,9 @@ html, body{
 }
 #about-anna-section{
   height: 100%;
-  padding: 30px;
-  padding-bottom: 70vh;
+  padding: 20px;
+  background-image: url("http://bit.ly/2huat50");
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
 }
