@@ -12,11 +12,11 @@ function carousel() {
     myGreetings++;
     if (myGreetings > x.length) {myGreetings = 1}
     x[myGreetings-1].style.display = "block";
-    setTimeout(carousel, 2000); // Change image every 2 seconds
+    setTimeout(carousel, 2000);
 }
 
  $(function() {
-    $('#').click (function() {
+    $('arrow').click (function() {
       $('html, body').animate({scrollTop: $('section').offset().top }, 'slow');
       return false;
     });
