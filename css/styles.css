@@ -38,8 +38,41 @@ h2{
   width: 85%;
   margin-left: 10%;
   border: 5px solid black;
+  background:
+    linear-gradient(
+      rgba(255, 0, 0, 0.45),
+      rgba(255, 0, 0, 0.45));
+  /*its because I'm saying "background"*/
 }
-
+.welcomeImage1{
+  height: 610px;
+  width: 85%;
+  margin-left: 10%;
+  border: 5px solid black;
+    background:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+    url("http://bit.ly/2hrIv9U");
+  background-size: cover;
+}
+.welcomeImage2{
+  /*background-image: url("http://bit.ly/2gEAuQl");*/
+  /*background-size: cover;*/
+  height: 610px;
+  width: 85%;
+  margin-left: 10%;
+  border: 5px solid black;
+    background:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+    url("http://bit.ly/2gEAuQl");
+  background-size: cover;
+}
+.welcomeImage3{
+  height: 610px;
+  width: 85%;
+  margin-left: 10%;
+  border: 5px solid black;
+    background:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+    url("http://bit.ly/2htGoTc");
+  background-size: cover;
+}
 @keyframes bouncing{
   0%{bottom: 200px;}
   50% {bottom: 150px;}
@@ -61,13 +94,29 @@ h2{
   background-repeat: no-repeat;*/
 }
 .about-anna-image{
-/*  height: 900px;
-  width: 100%;*/
-  background-size: cover;
-  height: 100vh;
+  height: 900px;
   width: 100%;
+  background-image: url("http://bit.ly/2huat50");
+    -webkit-filter: grayscale(100%);
+   filter: gray;
+  background-size: cover;
   background-repeat: no-repeat;
-  background: rgba(88,88,88,1);
+  position: relative;
+  display: block;
+ /* background: rgba(88,88,88,1);
     -webkit-filter: grayscale(1);
-  filter: grayscale(1);
+  filter: grayscale(1);*/
+}
+.navigation{
+    height: 900px;
+  width: 100%;
+  background-image: url("http://bit.ly/2huat50");
+    -webkit-filter: grayscale(100%);
+   filter: gray;
+  padding-top: -10%;
+  overflow: auto;
+  position: relative;
+}
+a {
+  color: white;
 }
