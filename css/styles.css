@@ -113,6 +113,7 @@ li{
 }
 .paragraph-overlay{
   display: inline-block;
+  font-size: 20px;
   padding: 40px;
   padding-left: 150px;
   width: 39%;
@@ -122,5 +123,6 @@ li{
   padding-top: 79px;
  /* background-color: rgba(0, 0, 0, .5);*/
 }
-p{
+.menu-bar{
+  width: 40px;
 }
