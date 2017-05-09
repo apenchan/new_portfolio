@@ -14,16 +14,28 @@ function carousel() {
     setTimeout(carousel, 2000);
 }
 
-  $("a").click(function(event){
-    if(this.hash){
-      event.preventDefault();
-      var hash = this.hash
-      console.log(hash);
+$("a").click(function(event){
+  if(this.hash){
+    event.preventDefault();
+    var hash = this.hash
+    console.log(hash);
 
-      $("body,html").animate({
-        scrollTop : $(hash).offset().top
-      }, 500, function(){
-        window.location.hash = hash;
-      })
-    }
-  });
+    $("body,html").animate({
+      scrollTop : $(hash).offset().top
+    }, 500, function(){
+      window.location.hash = hash;
+    })
+  }
+});
+
+
+
+// $("#nav").addClass('drop-down').before('<div id="menu">&#9776;</div>');
+// $("#menu").click(function(){
+//     $("#nav").toggle();
+//   });
+//   $(window).resize(function(){
+//     if(window.innerWidth > 768) {
+//       $("#nav").removeAttr("style");
+//     }
+//   });
