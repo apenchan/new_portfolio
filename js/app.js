@@ -27,15 +27,3 @@ $("a").click(function(event){
     })
   }
 });
-
-
-
-// $("#nav").addClass('drop-down').before('<div id="menu">&#9776;</div>');
-// $("#menu").click(function(){
-//     $("#nav").toggle();
-//   });
-//   $(window).resize(function(){
-//     if(window.innerWidth > 768) {
-//       $("#nav").removeAttr("style");
-//     }
-//   });

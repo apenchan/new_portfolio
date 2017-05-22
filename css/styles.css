@@ -59,13 +59,11 @@ h2{
   width: 85%;
   margin-left: 10%;
   border: 5px solid black;
-    background:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
-    url("http://bit.ly/2hrIv9U");
+    background:
+    url("https://scontent.cdninstagram.com/t51.2885-15/e35/15625003_240709616360384_120124948164378624_n.jpg");
   background-size: cover;
 }
 .welcomeImage2{
-  /*background-image: url("http://bit.ly/2gEAuQl");*/
-  /*background-size: cover;*/
   height: 610px;
   width: 85%;
   margin-left: 10%;
@@ -95,22 +93,22 @@ h2{
   padding-left: 45%;
 }
 #about-anna-section{
-  height: 900px;
   width: 100%;
-  /*margin-left: 30px;*/
-  /*margin-right: 30px;*/
-  /*background:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),*/
+  min-width: 1024px;
   background: url("http://bit.ly/2qPtg21");
-/*      -webkit-filter: grayscale(100%);
-   filter: gray;*/
-   background-repeat: no-repeat;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
+  max-width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  padding-bottom: 60vh;
 }
 .navigation2{
   padding: 40px;
   float: left;
   margin-top: 20px;
-  background-color: rgba(0, 0, 0, .5);
 }
 ul{
   list-style-type: none;
@@ -121,6 +119,7 @@ li{
 }
 .modal-content{
   width: 830px;
+  text-align: center;
 }
 .paragraph-overlay{
   display: inline-block;
@@ -137,4 +136,8 @@ li{
 }
 .menu-bar{
   width: 40px;
+}
+.btn{
+  background: none;
+  border: none;
 }
