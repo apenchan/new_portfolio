@@ -2,7 +2,10 @@
   font-family: "Codebold.otf";
   src: url(../fonts/CODEBold.otf);
 }
-
+@font-face{
+  font-family: "GeosansLight.ttf";
+  src: url(../fonts/GeosansLight.ttf);
+}
 html, body{
   margin: 0;
   padding: 0;
@@ -108,7 +111,7 @@ h2{
   max-width: 100%;
   /*height: auto;*/
   background-repeat: no-repeat;
-  padding-bottom: 60vh;
+  padding-bottom: 80vh;
 }
 .navigation2{
   padding: 40px;
@@ -128,14 +131,14 @@ li{
 }
 .paragraph-overlay{
   display: inline-block;
-  padding-left: 480px;
-  padding-right: 400px;
+  padding-left: 553px;
+  padding-right: 200px;
   position: relative;
-  top: 56px;
+  top: 90px;
 }
 .anna-description{
-  font-family: "Codebold.otf";
-  font-size: 15px;
+  font-family: "GeosansLight.ttf";
+  font-size: 20px;
   color: white;
 }
 .menu-bar{
