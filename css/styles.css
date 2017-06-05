@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Codebold.otf";
+  src: url(../fonts/CODEBold.otf);
+}
+
 html, body{
   margin: 0;
   padding: 0;
@@ -95,13 +100,13 @@ h2{
 #about-anna-section{
   width: 100%;
   min-width: 1024px;
-  background: url("http://bit.ly/2qPtg21");
+  background: url("http://bit.ly/2qThmF7");
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   max-width: 100%;
-  height: auto;
+  /*height: auto;*/
   background-repeat: no-repeat;
   padding-bottom: 60vh;
 }
@@ -123,16 +128,15 @@ li{
 }
 .paragraph-overlay{
   display: inline-block;
-  font-size: 20px;
-  padding-left: 150px;
-  width: 39%;
+  padding-left: 480px;
+  padding-right: 400px;
+  position: relative;
+  top: 56px;
 }
 .anna-description{
+  font-family: "Codebold.otf";
   font-size: 15px;
-  padding: 20px;
-  padding-top: 79px;
-  color: black;
-/*  background-color: rgba(0, 0, 0, .5);*/
+  color: white;
 }
 .menu-bar{
   width: 40px;
