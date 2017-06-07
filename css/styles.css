@@ -101,17 +101,14 @@ h2{
   padding-left: 45%;
 }
 #about-anna-section{
-  width: 100%;
-  min-width: 1024px;
   background: url("http://bit.ly/2qThmF7");
-    -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  max-width: 100%;
+  background-size: 1510px;
+  position: absolute;
+   clip: rect(30px);
+  margin-right: 0px;
   /*height: auto;*/
   background-repeat: no-repeat;
-  padding-bottom: 80vh;
+  padding-bottom: 50vh;
 }
 .navigation2{
   padding: 40px;
@@ -131,8 +128,8 @@ li{
 }
 .paragraph-overlay{
   display: inline-block;
-  padding-left: 553px;
-  padding-right: 200px;
+  padding-left: 552px;
+  padding-right: 320px;
   position: relative;
   top: 90px;
 }
