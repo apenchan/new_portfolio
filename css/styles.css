@@ -6,6 +6,10 @@
   font-family: "GeosansLight.ttf";
   src: url(../fonts/GeosansLight.ttf);
 }
+@font-face{
+  font-family: "GinoraSansRegular.otf";
+  src: url(../fonts/GinoraSansRegular.otf);
+}
 html, body{
   margin: 0;
   padding: 0;
@@ -23,6 +27,7 @@ html, body{
 .header{
   display: inline;
   text-align: center;
+  font-family: "GinoraSansRegular.otf";
   height: 20px;
 }
 .menu-bar{
@@ -40,31 +45,16 @@ html, body{
   color: orange;
   position: absolute;
   width: 100%;
-  padding-top: 17%;
+  padding-top: 35vh;
   position: absolute;
-}
-.welcomeImage{
-/*  background-image: url("http://bit.ly/2hrIv9U");
-  background-size: cover;
-  height: 100vh;
-  background-repeat: no-repeat;*/
-  height: 610px;
-  width: 85%;
-  margin-left: 10%;
-  border: 5px solid black;
-  background:
-    linear-gradient(
-      rgba(255, 0, 0, 0.45),
-      rgba(255, 0, 0, 0.45));
-  /*its because I'm saying "background"*/
 }
 .welcomeImage1{
   height: 610px;
-  width: 85%;
-  margin-left: 10%;
+  width: 65%;
+  margin-left: 17%;
   border: 5px solid black;
-    background:
-    url("https://scontent.cdninstagram.com/t51.2885-15/e35/15625003_240709616360384_120124948164378624_n.jpg");
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .5)),
+    url("http://bit.ly/2tcBAX0");
   background-size: cover;
 }
 .welcomeImage2{
@@ -72,8 +62,7 @@ html, body{
   width: 85%;
   margin-left: 10%;
   border: 5px solid black;
-    background:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
-    url("http://bit.ly/2gEAuQl");
+    background: url("http://bit.ly/2gEAuQl");
   background-size: cover;
 }
 .welcomeImage3{
@@ -81,7 +70,7 @@ html, body{
   width: 85%;
   margin-left: 10%;
   border: 5px solid black;
-    background:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+    background:linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .5)),
     url("http://bit.ly/2htGoTc");
   background-size: cover;
 }
