@@ -1,5 +1,6 @@
 console.log("Hello world");
 
+var welcomeText = ["Welcome", "Shalom", "hi"];
 var myGreetings = 0;
 carousel();
 
