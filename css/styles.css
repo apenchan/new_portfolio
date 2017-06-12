@@ -41,8 +41,10 @@ html, body{
  }
 .welcomeText {
   font-size: 50px;
+  font-family: "Codebold.otf";
   text-align: center;
-  color: orange;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   position: absolute;
   width: 100%;
   padding-top: 35vh;
@@ -52,7 +54,7 @@ html, body{
   height: 610px;
   width: 65%;
   margin-left: 17%;
-  border: 5px solid black;
+  border: 2px solid black;
     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .5)),
     url("http://bit.ly/2tcBAX0");
   background-size: cover;
@@ -61,17 +63,16 @@ html, body{
   height: 610px;
   width: 85%;
   margin-left: 10%;
-  border: 5px solid black;
-    background: url("http://bit.ly/2gEAuQl");
+  border: 2px solid black;
+    background: url("http://bit.ly/2ssVcK0");
   background-size: cover;
 }
 .welcomeImage3{
   height: 610px;
   width: 85%;
   margin-left: 10%;
-  border: 5px solid black;
-    background:linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .5)),
-    url("http://bit.ly/2htGoTc");
+  border: 2px solid black;
+    background: url("http://bit.ly/2rmElnu");
   background-size: cover;
 }
 @keyframes bouncing{
@@ -95,6 +96,9 @@ html, body{
   padding-bottom: 50vh;
 }
 .navigation2{
+  color: white;
+  font-size: 15px;
+  font-family: "GeosansLight.ttf";
   padding: 40px;
   float: left;
   margin-top: 20px;
