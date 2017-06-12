@@ -102,6 +102,7 @@ h2{
 }
 #about-anna-section{
   background: url("http://bit.ly/2qThmF7");
+  min-height: 420px;
   background-size: 1510px;
   position: absolute;
    clip: rect(30px);
@@ -144,4 +145,8 @@ li{
 .btn{
   background: none;
   border: none;
+  color: inherit;
+}
+.btn:hover{
+  background: none;
 }
