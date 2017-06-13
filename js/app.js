@@ -12,7 +12,7 @@ function carousel() {
     myGreetings++;
     if (myGreetings > x.length) {myGreetings = 1}
     x[myGreetings-1].style.display = "block";
-    setTimeout(carousel, 2000);
+    setTimeout(carousel, 4000);
 }
 
 $("a").click(function(event){
@@ -27,4 +27,8 @@ $("a").click(function(event){
       window.location.hash = hash;
     })
   }
+});
+
+$('#mymodal').on('shown.bs.modal', function(e){
+    $('.btn').one('focus', function(e){$(this).blur();});
 });
