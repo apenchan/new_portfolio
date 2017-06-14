@@ -12,6 +12,9 @@ app.get('/', function (req, res){
   res.sendFile(path.join(__dirname+ '/index.html'));
 });
 
+app.get('/projects', function (req, res){
+  res.sendFile(path.join(__dirname + '/project.html'));
+});
 // app.use("/styles", express.static(__dirname + '/styles'));
 
 app.listen(port);
