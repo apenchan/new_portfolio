@@ -1,0 +1,24 @@
+{
+  "name": "anna_js_portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apenchan/new_portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apenchan/new_portfolio/issues"
+  },
+  "homepage": "https://github.com/apenchan/new_portfolio#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "morgan": "^1.8.2",
+    "path": "^0.12.7"
+  }
+}
