@@ -12,7 +12,7 @@ function carousel() {
     myGreetings++;
     if (myGreetings > x.length) {myGreetings = 1}
     x[myGreetings-1].style.display = "block";
-    setTimeout(carousel, 4000);
+    setTimeout(carousel, 5000);
 }
 
 $("a").click(function(event){
