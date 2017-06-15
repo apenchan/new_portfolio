@@ -88,12 +88,13 @@ html, body{
 }
 #about-anna-section{
   background: url("http://bit.ly/2qThmF7");
+  background-attachment: fixed;
   background-size: 1310px;
-  top: 700px;
+  top: 723px;
   position: absolute;
   margin-right: 0px;
   background-repeat: no-repeat;
-  padding-bottom: 50vh;
+  padding-bottom: 36vh;
 }
 .navigation2{
   font-family: "GeosansLight.ttf";
@@ -144,19 +145,36 @@ a {
   outline: none;
 }
 /*projects page below*/
-#projectsOverall{
+/*#projectsOverall{
   background:url("http://bit.ly/2t5sV9I");
+  filter: grayscale(100%);
   background-size: cover;
   background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}*/
+.overlay1{
+  background: url("http://bit.ly/2s4zmeA");
+  min-height: 610px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .pageTitle {
   text-align: center;
   font-size: 30px;
-/*  margin: 37px;*/
+}
+.projectTitle1{
+  font-size: 20px;
+  padding-left: 20px;
 }
 .projectTitle{
   font-size: 20px;
   padding-left: 20px;
+}
+.projectLink{
+  padding: 20px;
 }
 .technologies{
   list-style-type: none;
@@ -167,4 +185,5 @@ a {
 }
 .appDesc{
   margin: 20px;
+  color: white;
 }
