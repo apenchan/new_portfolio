@@ -104,11 +104,11 @@ html, body{
 a {
   color: white;
 }
-ul{
+.navOptionsL{
   list-style-type: none;
   font-size: 15px;
 }
-li{
+.navOptions{
   padding: 2px;
   font-size: 20px;
 }
@@ -144,17 +144,26 @@ li{
   outline: none;
 }
 /*projects page below*/
+#projectsOverall{
+  background:url("http://bit.ly/2t5sV9I");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .pageTitle {
   text-align: center;
   font-size: 30px;
-  margin: 37px;
+/*  margin: 37px;*/
 }
 .projectTitle{
   font-size: 20px;
+  padding-left: 20px;
 }
 .technologies{
+  list-style-type: none;
   display: inline-block;
-  font-size: 15px;
+  padding:0px;
+  margin: 0px;
+  overflow: hidden;
 }
 .appDesc{
   margin: 20px;
