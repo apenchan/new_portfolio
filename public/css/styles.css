@@ -124,7 +124,7 @@ li{
   padding-left: 469px;
   padding-right: 355px;
   position: relative;
-  top: 60px;
+  top: 20px;
 }
 .menu-bar{
   width: 40px;
@@ -142,4 +142,20 @@ li{
 .btn:hover{
   background: none;
   outline: none;
+}
+/*projects page below*/
+.pageTitle {
+  text-align: center;
+  font-size: 30px;
+  margin: 37px;
+}
+.projectTitle{
+  font-size: 20px;
+}
+.technologies{
+  display: inline-block;
+  font-size: 15px;
+}
+.appDesc{
+  margin: 20px;
 }
