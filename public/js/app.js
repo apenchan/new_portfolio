@@ -1,6 +1,5 @@
 console.log("Hello world");
 
-var welcomeText = ["Welcome", "Shalom", "hi"];
 var myGreetings = 0;
 carousel();
 
@@ -23,7 +22,7 @@ $("a").click(function(event){
 
     $("body,html").animate({
       scrollTop : $(hash).offset().top
-    }, 500, function(){
+    }, 800, function(){
       window.location.hash = hash;
     })
   }

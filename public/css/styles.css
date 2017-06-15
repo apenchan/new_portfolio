@@ -145,27 +145,35 @@ a {
   outline: none;
 }
 /*projects page below*/
-/*#projectsOverall{
-  background:url("http://bit.ly/2t5sV9I");
-  filter: grayscale(100%);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100vh;
-}*/
 .overlay1{
   background: url("http://bit.ly/2s4zmeA");
-  min-height: 610px;
+  min-height: 657px;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 300px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 0vh;
+}
+.overlay2{
+  background: url("http://bit.ly/2t65Zav");
+  min-height: 692px;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 0vh;
 }
 .pageTitle {
   text-align: center;
   font-size: 30px;
 }
-.projectTitle1{
+.projectTitle{
   font-size: 20px;
   padding-left: 20px;
 }
@@ -186,4 +194,8 @@ a {
 .appDesc{
   margin: 20px;
   color: white;
+}
+.video{
+  padding: 20px;
+  float: center;
 }
