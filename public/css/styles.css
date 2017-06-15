@@ -145,33 +145,39 @@ a {
   outline: none;
 }
 /*projects page below*/
-.overlay1{
+#overlay1{
   background: url("http://bit.ly/2s4zmeA");
   min-height: 657px;
-  padding-top: 20px;
+  padding-top: 66px;
   padding-left: 50px;
-  padding-right: 300px;
+  padding-right: 450px;
   background-attachment: fixed;
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 0vh;
 }
-.overlay2{
+#overlay2{
   background: url("http://bit.ly/2t65Zav");
-  min-height: 692px;
-  padding-top: 20px;
+  min-height: 578px;
+  padding-top: 76px;
   padding-left: 50px;
   padding-right: 300px;
   background-attachment: fixed;
-  background-position: center;
+/*  background-position: center;*/
   background-repeat: no-repeat;
   background-size: cover;
   height: 0vh;
 }
-.pageTitle {
+#pageTitle {
   text-align: center;
-  font-size: 30px;
+  height: 40px;
+  font-size: 20px;
+  background: white;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: fixed;
+  z-index: 9999;
 }
 .projectTitle{
   font-size: 20px;
