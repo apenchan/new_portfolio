@@ -31,3 +31,7 @@ $("a").click(function(event){
 $('#mymodal').on('shown.bs.modal', function(e){
     $('.btn').one('focus', function(e){$(this).blur();});
 });
+
+function goBack(){
+  window.history.back();
+}

@@ -10,6 +10,10 @@
   font-family: "GinoraSansRegular.otf";
   src: url(../fonts/GinoraSansRegular.otf);
 }
+@font-face {
+  font-family: "FFF_Regular_TRIAL.ttf";
+  src: url(../fonts/FFF_Regular_TRIAL.ttf);
+}
 html, body{
   margin: 0;
   padding: 0;
@@ -169,15 +173,20 @@ a {
   height: 0vh;
 }
 #pageTitle {
+  font-family: "FFF_Regular_TRIAL.ttf";
   text-align: center;
   height: 40px;
-  font-size: 20px;
+  font-size: 30px;
   background: white;
   width: 100%;
   padding-top: 5px;
   padding-bottom: 5px;
   position: fixed;
   z-index: 9999;
+}
+.goHome{
+  padding-left: 766px;
+  margin: -18px;
 }
 .projectTitle{
   font-size: 20px;
