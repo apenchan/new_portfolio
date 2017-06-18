@@ -121,6 +121,9 @@ html, body{
 a {
   color: white;
 }
+a:hover{
+  color: #4EBBFF;
+}
 .navOptionsL{
   list-style-type: none;
   font-size: 15px;
@@ -147,6 +150,7 @@ a {
   width: 40px;
 }
 .btn{
+  font-weight: bold;
   background: none;
   background-color: none;
   border: none;
@@ -159,6 +163,8 @@ a {
 .btn:hover{
   background: none;
   outline: none;
+  text-decoration: underline;
+  color: #4EBBFF;
 }
 /*projects page below*/
 #overlay1{
@@ -213,6 +219,9 @@ a {
   background-color: transparent;
   border: none;
   cursor: pointer;
+}
+.gohome2:hover{
+  color: #4EBBFF;
 }
 .projectTitle{
   font-family: "FFF_Regular_TRIAL.ttf";
