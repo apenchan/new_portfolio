@@ -2,6 +2,10 @@
   font-family: "Codebold.otf";
   src: url(../fonts/CODEBold.otf);
 }
+@font-face {
+  font-family: "Watchword_regular_demo.otf";
+  src: url(../fonts/Watchword_regular_demo.otf);
+}
 @font-face{
   font-family: "GeosansLight.ttf";
   src: url(../fonts/GeosansLight.ttf);
@@ -90,6 +94,9 @@ html, body{
   padding-top: 46%;
   padding-left: 45%;
 }
+/*.arrow:hover{
+  text-transform:
+}*/
 #about-anna-section{
   background: url("http://bit.ly/2qThmF7");
   background-attachment: fixed;
@@ -105,6 +112,7 @@ html, body{
   padding: 40px;
   float: left;
   margin-top: 20px;
+  font-weight: bold;
 }
 a {
   color: white;
@@ -150,7 +158,8 @@ a {
 }
 /*projects page below*/
 #overlay1{
-  background: url("http://bit.ly/2s4zmeA");
+  background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .1)),
+  url("http://bit.ly/2s4zmeA");
   min-height: 657px;
   padding-top: 66px;
   padding-left: 50px;
@@ -161,7 +170,8 @@ a {
   height: 0vh;
 }
 #overlay2{
-  background: url("http://bit.ly/2t65Zav");
+  background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)),
+  url("http://bit.ly/2t65Zav");
   min-height: 578px;
   padding-top: 76px;
   padding-left: 50px;
@@ -189,26 +199,32 @@ a {
   margin: -18px;
 }
 .projectTitle{
+  color: #f5f5f1;
   font-size: 20px;
   padding-left: 20px;
 }
 .projectTitle{
-  font-size: 20px;
+  font-family: "FFF_Regular_TRIAL.ttf";
+  font-size: 40px;
   padding-left: 20px;
 }
 .projectLink{
   padding: 20px;
+  padding-top: 5px;
 }
 .technologies{
   list-style-type: none;
   display: inline-block;
   padding:0px;
   margin: 0px;
+  color: #f5f5f1;
+  font-family: "FFF_Regular_TRIAL.ttf";
   overflow: hidden;
 }
 .appDesc{
   margin: 20px;
   color: white;
+  font-family: "Watchword_regular_demo.otf";
 }
 .video{
   padding: 20px;
