@@ -99,9 +99,6 @@ html, body{
   padding-top: 46%;
   padding-left: 45%;
 }
-/*.arrow:hover{
-  text-transform:
-}*/
 /*animation: ABOUT ANNA SECTION*/
 #about-anna-section{
   background: url("http://bit.ly/2qThmF7");
@@ -167,7 +164,7 @@ a:hover{
   color: #4EBBFF;
 }
 /*projects page below*/
-#overlay1{
+.project1{
   background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .8)),
   url("http://bit.ly/2s4zmeA");
   min-height: 657px;
@@ -179,7 +176,7 @@ a:hover{
   background-size: cover;
   height: 0vh;
 }
-#overlay2{
+.project2{
   background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
   url("http://bit.ly/2t65Zav");
   min-height: 578px;
@@ -267,7 +264,7 @@ a:hover{
     z-index: 9999;
     list-style-type: none;
 }
-.fillupNav ul {
+/*.fillupNav ul {
     position: relative;
     padding: 3px;
     padding-left: 45%;
@@ -278,7 +275,6 @@ a:hover{
   padding-bottom: 20px;
   padding-left: 35%;
   color: white;
-/*  color: rgb(113,135,133);*/
 }
 .fillupNav a{
   display: block;
@@ -293,13 +289,12 @@ a:hover{
 .fillupNav a:hover{
   border-radius: 50%;
   background-color: white;
-  /*background-color: rgb(113,135,133);*/
   text-decoration: none;
 }
 .fillupNav a:active{
   border-radius: 50%;
   background-color: red;
   text-decoration: none;
-}
+}*/
 
 
