@@ -32,3 +32,41 @@ body{
   font-size: 14px;
   top: -70px;
 }
+@media screen and (max-width: 520px){
+  body{
+    color: blue;
+  }
+  #greetings-container{
+    height: 40%;
+  }
+  .welcomeImage1{
+    width: 400px;
+    height: 500px;
+    margin-left: 0%;
+  }
+  .welcomeImage2{
+    width: 426px;
+    height: 500px;
+    margin-left: 7%;
+  }
+  .welcomeImage3{
+    width: 480px;
+    height: 500px;
+    margin-left: -7%;
+  }
+  .welcomeText{
+    padding-top: 33%;
+    padding-left: 0%;
+    padding-right: 10%;
+  }
+  #about-anna-section{
+    background-size: 673px 706px;
+  }
+  .anna-description{
+    padding-left: 23%;
+    padding-right: 10%;
+    top: 0px;
+    font-size: 13px;
+    padding-bottom: 7%;
+  }
+}
