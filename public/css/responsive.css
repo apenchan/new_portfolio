@@ -1,5 +1,52 @@
-body{
+/*@media screen and (max-width: 520px){*/
+  body{
+    color: blue;
+  }
+  #greetings-container{
+    height: 40%;
+  }
+  .welcomeImage1{
+    width: 100%;
+    height: 332px;
+    margin-left: 4%;
+  }
+  .welcomeImage2{
+    width: 100%;
+    height: 200px;
+    margin-left: 3%;
+  }
+  .welcomeImage3{
+    width: 100%;
+    height: 200px;
+    margin-left: 3%;
+  }
+  .welcomeText{
+    padding-top: 17vh;
+    font-size: 40px;
+    padding-right: 23%;
+  }
+  .arrow{
+    position: relative;
+    padding-top: 80%;
+    padding-left: 30%;
+  }
+  #about-anna-section{
+    background-size: 673px 706px;
+  }
+  .anna-description{
+    padding-left: 23%;
+    padding-right: 10%;
+    top: 0px;
+    font-size: 13px;
+    padding-bottom: 7%;
+  }
+/*}*/
+
+/*body{
   color: red;
+}
+img {
+  max-width: 100%
 }
 #greetings-container{
   height: 20%;
@@ -16,11 +63,11 @@ body{
   width: 100%;
   margin-left: 1%;
 }
-/*img{
+img{
   max-width: 100%;
   height: auto;
   margin: 0 0 10px 0;
-}*/
+}
 #about-anna-section{
   background-size: 1094px 704px;
   padding-top: 5%;
@@ -31,8 +78,8 @@ body{
   margin-left: 25%;
   font-size: 14px;
   top: -70px;
-}
-@media screen and (max-width: 520px){
+}*/
+/*@media screen and (max-width: 520px){
   body{
     color: blue;
   }
@@ -69,4 +116,4 @@ body{
     font-size: 13px;
     padding-bottom: 7%;
   }
-}
+}*/
