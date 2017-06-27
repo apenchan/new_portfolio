@@ -32,8 +32,8 @@ html, body{
   position: relative;
   /*background-attachment: fixed;*/
   padding: 0px;
-  padding-left: 50px;
-  padding-right: 50px;
+  /*padding-left: 50px;*/
+  /*padding-right: 50px;*/
   padding-bottom: 50px;
   height: 100vh;
 }
