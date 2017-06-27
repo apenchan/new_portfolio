@@ -2,43 +2,50 @@
   body{
     color: blue;
   }
+  h2{
+    padding-left: 50px;
+  }
   #greetings-container{
-    height: 40%;
+    padding-right: 20%;
   }
   .welcomeImage1{
     width: 100%;
     height: 332px;
-    margin-left: 4%;
+    margin-left: 13%;
   }
   .welcomeImage2{
     width: 100%;
     height: 200px;
-    margin-left: 3%;
+    margin-left: 15%;
   }
   .welcomeImage3{
     width: 100%;
     height: 200px;
-    margin-left: 3%;
+    margin-left: 11%;
   }
   .welcomeText{
     padding-top: 17vh;
     font-size: 40px;
-    padding-right: 23%;
+    padding-right: 0%;
   }
   .arrow{
     position: relative;
     padding-top: 80%;
-    padding-left: 30%;
+    padding-left: 40%;
   }
   #about-anna-section{
-    background-size: 673px 706px;
+    background-size: 139% 100%;
+    padding-bottom: 28vh;
   }
   .anna-description{
-    padding-left: 23%;
-    padding-right: 10%;
-    top: 0px;
-    font-size: 13px;
-    padding-bottom: 7%;
+    padding-left: 50%;
+    padding-right: 5%;
+    top: -37px;
+    font-size: 11px;
+    padding-bottom: 0vh;
+  }
+  .skillsList{
+    font-size: 11px;
   }
 /*}*/
 
